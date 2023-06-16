@@ -45,7 +45,11 @@ package com.example.studentms_crudsql;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class ProfileActivity extends AppCompatActivity {
@@ -56,6 +60,7 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
 
         // Initialize views
         nameTextView = findViewById(R.id.nameTextView);
@@ -75,5 +80,14 @@ public class ProfileActivity extends AppCompatActivity {
             nameTextView.setText(user.getName());
             emailTextView.setText(user.getEmail());
         }
+
+        Intent serviceIntent = new Intent(this, BackgroundService.class);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(serviceIntent);
+        } else {
+            startService(serviceIntent);
+        }
+
     }
 }
+

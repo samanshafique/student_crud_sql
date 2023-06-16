@@ -6,4 +6,336 @@
     android:layout_height="match_parent"
     tools:context=".EventDetailsActivity">
 
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:text="your detail of notification can be dispalyed Here!..."
+        android:textSize="21dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.206"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+
+    <Button
+        android:id="@+id/btnfill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="60dp"
+        android:padding="10dp"
+        android:text="Perform operation >"
+        android:textColor="#FDFDFD"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--tools:context=".Second">-->
+
+<!--<TextView-->
+<!--    android:id="@+id/top"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:background="#E7F0F3"-->
+<!--    android:layout_centerHorizontal="true"-->
+<!--    android:textAlignment="center"-->
+<!--    android:padding="14dp"-->
+<!--    android:text="Dashboard"-->
+<!--    android:textSize="22dp" />-->
+
+
+<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/text_view_summary"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="300dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginLeft="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_below="@id/top"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textSize="20sp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:textStyle="bold"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginStart="40dp" />&ndash;&gt;-->
+
+
+
+
+
+
+
+
+<!--<LinearLayout-->
+<!--    android:id="@+id/secondLayout"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginTop="80dp"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:weightSum="2">-->
+
+<!--    &lt;!&ndash; place one TextView and one EditText inside layout using weight property &ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginRight="5dp"-->
+<!--        android:layout_weight="0.5"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:textSize="18dp"-->
+<!--        android:text="Friends"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_weight="0.6"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:textSize="18dp"-->
+<!--        android:text="FastFood"-->
+<!--        />-->
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_weight="0.5"            android:gravity="center_vertical"-->
+<!--        android:paddingLeft="8dp"-->
+<!--        android:textSize="18dp"-->
+<!--        android:text="Creamer"-->
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_weight="0.6"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:textSize="18dp"-->
+<!--        android:text="Hot Drinks"-->
+<!--        />-->
+<!--</LinearLayout>-->
+<!--<TextView-->
+<!--    android:id="@+id/detail"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_below="@id/secondLayout"-->
+<!--    android:layout_marginTop="35dp"-->
+<!--    android:textStyle="bold"-->
+<!--    android:padding="14dp"-->
+<!--    android:text="Hot Deals"-->
+<!--    android:textSize="19dp"-->
+<!--    />-->
+
+<!--<Button-->
+<!--    android:id="@+id/btnfill"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:textStyle="bold"-->
+<!--    android:layout_marginTop="35dp"-->
+<!--    android:layout_below="@id/secondLayout"-->
+<!--    android:padding="10dp"-->
+<!--    android:textColor="#FDFDFD"-->
+<!--    android:layout_toEndOf="@+id/detail"-->
+<!--    android:layout_marginStart="130dp"-->
+<!--    android:text="Fill Form >"-->
+<!--    android:textSize="19dp"-->
+<!--    />-->
+
+
+<!--&lt;!&ndash;  implementation "androidx.cardview:cardview:1.0.0"&ndash;&gt;-->
+
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:id="@+id/card_view1"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:layout_width="180dp"-->
+<!--    android:layout_marginTop="15dp"-->
+<!--    android:layout_marginLeft="15dp"-->
+<!--    android:layout_below="@id/detail"-->
+<!--    android:layout_height="180dp"-->
+<!--    app:cardElevation="30dp"-->
+<!--    app:cardCornerRadius="20dp">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image1"-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:src="@drawable/burger" />-->
+
+
+<!--</androidx.cardview.widget.CardView>-->
+
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:id="@+id/card_view3"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:layout_width="180dp"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:layout_marginLeft="19dp"-->
+<!--    android:layout_below="@id/drinksparol"-->
+<!--    android:layout_height="180dp"-->
+<!--    app:cardElevation="30dp"-->
+<!--    app:cardCornerRadius="20dp">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image3"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:padding="15dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+
+<!--        android:src="@drawable/coke" />-->
+
+
+
+<!--</androidx.cardview.widget.CardView>-->
+
+
+
+
+
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:id="@+id/card_view2"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:layout_width="180dp"-->
+<!--    android:layout_marginTop="15dp"-->
+<!--    android:layout_marginLeft="19dp"-->
+<!--    android:layout_toEndOf="@id/card_view1"-->
+<!--    android:layout_below="@id/detail"-->
+<!--    android:layout_height="180dp"-->
+<!--    app:cardElevation="30dp"-->
+<!--    app:cardCornerRadius="20dp">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image2"-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:src="@drawable/chowmen" />-->
+
+
+
+
+<!--</androidx.cardview.widget.CardView>-->
+
+
+
+
+
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    android:id="@+id/card_view4"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:layout_width="180dp"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:layout_marginLeft="19dp"-->
+<!--    android:layout_toEndOf="@id/card_view3"-->
+<!--    android:layout_below="@id/leftview3"-->
+<!--    android:layout_height="180dp"-->
+<!--    app:cardElevation="30dp"-->
+<!--    app:cardCornerRadius="20dp">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image4"-->
+<!--        android:layout_width="180dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:src="@drawable/juice" />-->
+
+
+
+
+<!--</androidx.cardview.widget.CardView>-->
+
+
+<!--<TextView-->
+<!--    android:id="@+id/hamburg"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginLeft="20dp"-->
+<!--    android:layout_marginTop="20dp"-->
+<!--    android:layout_below="@id/card_view1"-->
+<!--    android:text="Humburger $25.00"-->
+<!--    android:textSize="20sp" />-->
+
+
+<!--<TextView-->
+<!--    android:id="@+id/chow"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_marginLeft="30dp"-->
+<!--    android:layout_marginTop="20dp"-->
+<!--    android:layout_below="@id/card_view2"-->
+<!--    android:layout_toEndOf="@id/hamburg"-->
+<!--    android:text="Pasta $125.00"-->
+<!--    android:textSize="20sp" />-->
+
+
+<!--<TextView-->
+<!--    android:id="@+id/drinksparol"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_below="@id/card_view1"-->
+<!--    android:layout_marginTop="40dp"-->
+<!--    android:textStyle="bold"-->
+<!--    android:padding="14dp"-->
+<!--    android:text="Drinks Parol"-->
+<!--    android:textSize="19dp"-->
+<!--    />-->
+
+<!--<TextView-->
+<!--    android:id="@+id/leftview3"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:textStyle="bold"-->
+<!--    android:layout_marginTop="40dp"-->
+<!--    android:layout_below="@id/card_view2"-->
+<!--    android:padding="14dp"-->
+<!--    android:textColor="#4ABA2A"-->
+<!--    android:layout_toEndOf="@+id/drinksparol"-->
+<!--    android:layout_marginStart="125dp"-->
+<!--    android:text="view all>"-->
+<!--    android:textSize="19dp"-->
+<!--    />-->
+
+
+
+
+<!--</RelativeLayout>-->
