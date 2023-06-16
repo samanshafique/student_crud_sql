@@ -14,3 +14,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "StudentMS_crudsql"
 include ':app'
+
+
+
+
